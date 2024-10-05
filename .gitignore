@@ -1,0 +1,8 @@
+TodoFrontend/node_modules/
+# Ignore build directories
+Todo-App/target/
+Todo-App/.idea/
+
+*.class
+
+*.log
