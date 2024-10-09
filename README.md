@@ -12,9 +12,8 @@ This is a full-stack to-do list application where users can add, mark as complet
 1. Clone the repository: `git clone https://github.com/FabianOkucai/ToDoList.git`
 2. Navigate to the `backend` directory.
 3. Make sure you have java version "11.0.13" installed.
-4. 
-5. Update your `application.properties` file which will be under the path `backend/src/main/resources/application.properties`  with the correct database credentials.
-6. Run `mvn spring-boot:run` to start the backend server.
+4. Update your `application.properties` file which will be under the path `backend/src/main/resources/application.properties`  with the correct database credentials.
+5. Run `mvn spring-boot:run` to start the backend server.
 
 ### Frontend (ReactJS)
 1. Navigate to the `frontend` directory.
