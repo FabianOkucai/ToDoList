@@ -14,7 +14,7 @@ This is a full-stack to-do list application where users can add, mark as complet
 Before starting, ensure that you have the following installed on your system:
 
 - *Java 11* or higher (e.g., 11.0.13 LTS)
-- *Maven 3.8+*
+- *Maven 3.8+*(optional)
 - *Node.js* (for the frontend)
 - *MySQL* (for database)
 
@@ -37,12 +37,17 @@ Before starting, ensure that you have the following installed on your system:
 2. Navigate to the `backend` directory.
 3. Make sure you have java installed.
 4. Update your `application.properties` file which will be under the path `backend/src/main/resources/application.properties`  with the correct database credentials.
-5. Run `mvn spring-boot:run` to start the backend server using Maven or if you are using intellJ start the project using the Starter.
+5. Using intellJ start the project using the StarterRun `mvn spring-boot:run` to start the backend server using Maven or if you are using .
+
+![image2](https://github.com/user-attachments/assets/9bedade3-2bee-4572-a0b7-a36c26c8e656)
 
 ### Frontend (ReactJS)
 1. Navigate to the `frontend` directory.
 2. Run `npm install` to install the necessary dependencies.
-3. Run `npm start` to start the frontend server.
+3. Run `npm install axios` a tool to interct with API's
+4. Run `npm start` to start the frontend server.
+
+![Image 1](https://github.com/user-attachments/assets/8b8e9039-7b50-4714-90c9-5432d1b86a18)
 
 ## Running the Application:
 - The backend server will run at `http://localhost:8080`.
@@ -51,3 +56,5 @@ Before starting, ensure that you have the following installed on your system:
 ## Author:
 - GitHub: [FabianOkucai](https://github.com/FabianOkucai)
 - Email: okucaifabian@gmail.com
+
+
