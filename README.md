@@ -7,13 +7,6 @@ This is a full-stack to-do list application where users can add, mark as complet
 - *Frontend*: ReactJS, Bootstrap
 - *Backend*: Java Spring Boot, MySQL
 
-## Features
-
-- User authentication (registration and login)
-- Add, edit, and delete tasks
-- Mark tasks as complete
-- Responsive design for mobile and desktop
-
 ## Setup Instructions
 
 ### Prerequisites
@@ -44,7 +37,7 @@ Before starting, ensure that you have the following installed on your system:
 2. Navigate to the `backend` directory.
 3. Make sure you have java installed.
 4. Update your `application.properties` file which will be under the path `backend/src/main/resources/application.properties`  with the correct database credentials.
-5. Run `mvn spring-boot:run` to start the backend server.
+5. Run `mvn spring-boot:run` to start the backend server using Maven or if you are using intellJ start the project using the Starter.
 
 ### Frontend (ReactJS)
 1. Navigate to the `frontend` directory.
